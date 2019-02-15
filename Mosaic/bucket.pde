@@ -3,7 +3,7 @@
  * Feb 06, 2019
  * CMSC 317
  * Mosaic Maker
- **/
+ */
  
 /**
  * Element, Bucket, and BigBucket classes
@@ -20,7 +20,7 @@
  * which is especially noticeable when running it on the webcam-
  * even when all 5883 images are loaded, and the small img dimensions
  * are set to 9x6, it still runs in real-time!
- **/
+ */
  
  
  // FUTURE TODO: remove or destructively combine buckets with identical color spaces
