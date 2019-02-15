@@ -1,4 +1,4 @@
-### Mosaic
+### Mosaic Reconstruction Lab
 
 #### Given:
 A 600mb folder containing 5,882 images representing the video frames from the movie Willie Wonka (1 frame from each second of the movie).
