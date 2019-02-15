@@ -3,7 +3,6 @@
  * Feb 06, 2019
  * CMSC 317
  * Mosaic Maker
- * No collaboration
  **/
  
 /**
