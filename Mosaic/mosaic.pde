@@ -7,7 +7,7 @@
 
 /** //<>// //<>//
  * Vanilla Mosaic Maker (see: http://en.wikipedia.org/wiki/Photo_mosaic )
- * code outline by Keith O'Hara <kohara@bard.edu>
+ * initial code outline by Keith O'Hara <kohara@bard.edu>
  * Sep 2014
  *
  * Depending on the number of images you might have to increase
