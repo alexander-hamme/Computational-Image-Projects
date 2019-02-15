@@ -1,16 +1,5 @@
 // CMSC317 assignment 2
-// different binary thresholding functions
-//
-// (1) complete the two missing functions: 
-//      - calcmean 
-//      - calcotsu 
-//
-// (2) For the report (PDF):
-//      - show results (binary images) for the different thresholds
-//      - find an image where otsu fails; reflect on why it failed? 
-//      - describe another way to pick the threshold 
-//
-// submit your sketch as a .zip file with the PDF and images included
+// binary thresholding functions
 //
 // Keith O'Hara <kohara@bard.edu>
 // Feb 2019
@@ -20,7 +9,6 @@
  * Feb 13, 2019
  * CMSC 317
  * Histograms & Otsu Image Segmentation
- * No collaboration
  */
 
 import processing.video.*;
