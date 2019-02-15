@@ -3,17 +3,16 @@
  * Feb 06, 2019
  * CMSC 317
  * Mosaic Maker
- * No collaboration
- **/
+ */
 
 /** //<>// //<>//
  * Vanilla Mosaic Maker (see: http://en.wikipedia.org/wiki/Photo_mosaic )
- * Keith O'Hara <kohara@bard.edu>
+ * code outline by Keith O'Hara <kohara@bard.edu>
  * Sep 2014
  *
  * Depending on the number of images you might have to increase
  * the maximum available memory (in the Processing Preferences menu)
- **/
+ */
 
 import processing.video.*;
 
