@@ -1,11 +1,9 @@
 // CMSC317 assignment 2
 // binary thresholding functions
-//
-// Keith O'Hara <kohara@bard.edu>
-// Feb 2019
 
 /**
  * Alex Hamme <ah2166@bard.edu>
+ * Keith O'Hara <kohara@bard.edu>
  * Feb 13, 2019
  * CMSC 317
  * Histograms & Otsu Image Segmentation
