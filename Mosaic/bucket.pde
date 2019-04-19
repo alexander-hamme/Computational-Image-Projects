@@ -19,7 +19,7 @@
  * This makes the mosaic construction considerably faster, 
  * which is especially noticeable when running it on the webcam-
  * even when all 5883 images are loaded, and the small img dimensions
- * are set to 9x6, it still runs in real-time!
+ * are set to 9x6, it still runs in real-time.
  */
  
  
