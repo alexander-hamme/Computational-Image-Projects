@@ -9,7 +9,7 @@ Reconstruct a target image (or video input from the webcam) with a mosaic built 
 
 #### Approach:
 
-I created a color-space bucket data structure that grouped images into fixed size similar color space buckets during the initial loading from file process. Color space comparison and thresholding was calculated using the euclidean distance between the average RGB value of each image (calculated just once during initial image loading). 
+I created a color-space bucket data structure that grouped images into size-constricted color-space buckets during the initial loading from file process. Color space comparison and thresholding was calculated using the euclidean distance between the average RGB value of each image (calculated just once during initial image loading). 
 
 With this design, I was able to keep the image searching component of my mosaic construction code far below ***O(n)*** time (***n*** being the number of images), which enabled me to run it real-time on the webcam. The exact time complexity of each image search (one search is performed for each sub region of the mosaic) is ***O(B + E),*** where B is the number of buckets (typically about 3-5% of the size of `n`), and E is the maximum number of elements in a bucket, which is determined by the `max_bucket_size` variable. 
 
